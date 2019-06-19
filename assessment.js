@@ -85,7 +85,7 @@
 
       // 文字のコード番号の合計を回答の数で割って添字の数値を求める
       const index = sumOfcharCode % answers.length;
-      let result = answers[16];
+      let result = answers[index];
 
       result = result.replace(/{userName}/g, userName);
       return result;
